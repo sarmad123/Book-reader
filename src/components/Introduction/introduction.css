@@ -30,6 +30,7 @@
 }
 .action-btn button{
     font-family: "tahoma", sans-serif;
+
 }
 
 @media (max-width: 767px) {
@@ -43,7 +44,8 @@
         font-size: 0.5rem;
         top:1.3rem;
     }
-    .secondary-font{
+    .secondary-font, .action-btn button{
         font-size: 0.9rem;
     }
+
 }

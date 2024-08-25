@@ -43,7 +43,7 @@
         font-size: 0.5rem;
         top:1.3rem;
     }
-    .secondary-font{
+    .secondary-font,.action-btn button{
         font-size: 0.9rem;
     }
 }

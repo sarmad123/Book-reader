@@ -96,7 +96,7 @@ const Feedback = () => {
                             <button
                                 onClick={() => formik.resetForm()}
                                 type='submit'
-                                className={`sm:px-5 sm:py-1.5 py-1
+                                className={`sm:px-5 sm:py-1.5 py-2
                                  border-blue-950 bg-white text-blue-950 hover:border-blue-950
                                 w-full sm:w-[30%] justify-center text-sm rounded-md inline-flex items-center space-x-1 main-font font-normal`}
                             >
@@ -105,7 +105,7 @@ const Feedback = () => {
                             <button
                                 type='submit'
                                 disabled={!formik.isValid}
-                                className={`sm:px-5 sm:py-1.5 py-1
+                                className={`sm:px-5 sm:py-1.5 py-2
                                  border-blue-950 bg-blue-950 text-white
                                 w-full sm:w-[30%] justify-center text-sm rounded-md inline-flex items-center space-x-1 main-font font-normal ${
                                     formik.isValid ? 'hover:border-blue-950 hover:bg-blue-950 hover:text-white' : 'opacity-50 cursor-not-allowed'

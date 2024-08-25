@@ -32,7 +32,7 @@ const Landing = () => {
                 </div>
             </div>
             <div className="flex mt-10 justify-center mb-4">
-                <div className="w-[75%] mx-[25%] sm:w-[66.67%] sm:ml-[35.33%] sm:mr-0">
+                <div className="w-[75%] mx-[18%] sm:w-[66.67%] sm:ml-[35.33%] sm:mr-0">
                     <div className="w-28 h-1.5 line border rounded-full">
                     </div>
                 </div>
@@ -40,13 +40,13 @@ const Landing = () => {
 
             </div>
             <div className="flex mt-3 justify-center">
-                <div className="w-[100%] ml-[25%] mr-[20%] sm:w-[66.67%] sm:ml-[33.33%] sm:mr-0">
+                <div className="w-[100%] mx-[18%] sm:w-[66.67%] sm:ml-[33.33%] sm:mr-0">
                     <p className="main-font font-extrabold  text-1xl md:text-2xl primary-text-color leading-9">Is Your
                         Constitution Fit for Purpose?</p>
                 </div>
             </div>
             <div className="flex mt-3 justify-center  mb-6">
-                <div className="w-[100%] ml-[25%] mr-[20%] sm:w-[66.67%] sm:ml-[33.33%] sm:mr-0">
+                <div className="w-[100%] mx-[18%] sm:w-[66.67%] sm:ml-[33.33%] sm:mr-0">
                     <p className="main-font font-medium  text-1xl md:text-2xl secondary-text-color leading-9">
                         A Practical Guide to Effective Governance
                     </p>
@@ -91,7 +91,7 @@ const Landing = () => {
 
                 </div>
             </div>
-            <div className="flex  ml-[25%] mr-[20%] sm:w-[66.67%] sm:ml-[33.33%] sm:mr-0 mb-2">
+            <div className="flex  mx-[18%] sm:w-[66.67%] sm:ml-[33.33%] sm:mr-0 mb-2">
                 <span
                     className="secondary-text-color secondary-font font-normal text-1xl md:text-2xl leading-9  ">for</span>
                 <span className="secondary-font font-normal text-1xl md:text-2xl primary-text-color leading-9 ml-2 ">
@@ -99,7 +99,7 @@ const Landing = () => {
                 </span>
             </div>
             <div
-                className="flex items-center ml-[25%] mr-[20%] sm:ml-[33.33%] sm:mr-0 text-center mb-32">
+                className="flex items-center mx-[18%] sm:ml-[33.33%] sm:mr-0 text-center mb-32">
                 <FaArrowCircleRight className="h-6 w-6 sm:h-8 sm:w-8" style={{color:'#005ade'}}/>
                 <span className="secondary-text-color secondary-font font-normal text-xs sm:text-xl ml-2 sm:leading-none">
                     www.boardpro.com
