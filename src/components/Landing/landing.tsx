@@ -1,4 +1,4 @@
-import './landing.css';
+import './Landing.css';
 import mainLogoImage from '../../assets/mainLogo.png';
 import person1Image from '../../assets/person1.png';
 import person2Image from '../../assets/person2.png';

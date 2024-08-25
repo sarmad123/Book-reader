@@ -1,4 +1,4 @@
-import './feedback.css';
+import './Feedback.css';
 import doubleArrow from '../../assets/doubleArrow.png';;
 import {useFormik} from "formik";
 import * as Yup from "yup";
