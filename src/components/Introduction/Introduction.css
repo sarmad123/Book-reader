@@ -1,0 +1,49 @@
+
+.white-dots{
+    width: 7.5rem;
+    height: 3.5rem;
+}
+.logoLabel{
+    color: #003374;
+}
+.trademark{
+    right: -0.9rem;
+    font-size: 0.7rem;
+    top: 1.9rem;
+
+}
+.line{
+    background: #005ee6;
+}
+.primary-text-color{
+    color: #005ee6;
+}
+.content-text-color{
+    color:#919191;
+}
+.main-font{
+        font-family: "Times", serif;
+}
+.secondary-font{
+    font-family: "tahoma", sans-serif;
+    font-size: 1.1rem;
+}
+.action-btn button{
+    font-family: "tahoma", sans-serif;
+}
+
+@media (max-width: 767px) {
+    .blue-dots {
+        width: 5rem;
+    }
+}
+@media (max-width: 768px) {
+    .trademark{
+        right: -0.7rem;
+        font-size: 0.5rem;
+        top:1.3rem;
+    }
+    .secondary-font{
+        font-size: 0.9rem;
+    }
+}

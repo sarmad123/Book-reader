@@ -1,0 +1,46 @@
+
+.blue-dots{
+    width: 13.5rem;
+    height: 3.5rem;
+}
+.logoLabel{
+    color: #003374;
+}
+.trademark{
+    right: -0.9rem;
+    font-size: 0.7rem;
+    top: 1.9rem;
+
+}
+.line{
+    background: #005ee6;
+}
+.primary-text-color{
+    color: #005ee6;
+}
+.secondary-text-color{
+    color:#122c3f;
+}
+.main-font{
+        font-family: "Times", serif;
+}
+.persons{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+
+}
+.secondary-font{
+    font-family: "Barlow Condensed", sans-serif;
+}
+@media (max-width: 767px) {
+    .blue-dots {
+        width: 5rem;
+    }
+}
+@media (max-width: 768px) {
+    .trademark{
+        right: -0.7rem;
+        font-size: 0.5rem;
+        top:1.3rem;
+    }
+}
