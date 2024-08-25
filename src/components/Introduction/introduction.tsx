@@ -92,7 +92,7 @@ const Introduction = () => {
                                     *{formik.errors.intro}
                                 </span>
                             )}
-                        <div className='action-btn flex  justify-center sm:justify-end mt-3 mb-5 gap-4'>
+                        <div className='action-btn flex  justify-center sm:justify-end mt-4 sm:mt-6 mb-5 gap-4'>
                             {isEdit && (<button
                                 type='submit'
                                 disabled={!formik.isValid}

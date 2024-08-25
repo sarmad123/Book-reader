@@ -34,12 +34,13 @@ const Feedback = () => {
 
                 </div>
             </div>
-            <div className="flex flex-1  justify-center mt-3  mb-6">
+            <div className="flex flex-1  justify-center  mt-5 sm:mt-10  mb-6">
                 <div className="w-[100%] mx-[15%]">
                     <form onSubmit={formik.handleSubmit}>
+                        <div className='mb-4 sm:mb-6'>
                             <input
                                 name="name"
-                                className={`bg-white w-full flex rounded-md max-h-10 mb-4  p-3 text-sm text-gray-500 outline-0  ${formik.touched.name && formik.errors.name ? 'border-red-500 border' : 'border border-gray-400'}`}
+                                className={`bg-white w-full flex rounded-md max-h-10 p-3 text-sm text-gray-500 outline-0  ${formik.touched.name && formik.errors.name ? 'border-red-500 border' : 'border border-gray-400'}`}
                                 placeholder='Name'
                                 type='text'
                                 value={formik.values.name}
@@ -51,10 +52,11 @@ const Feedback = () => {
                                     *{formik.errors.name}
                                 </span>
                             )}
-
+                        </div>
+                        <div className='mb-4 sm:mb-6'>
                             <input
                                 name="email"
-                                className={`w-full bg-white flex rounded-md max-h-10 mb-4  p-3 text-sm text-gray-500 outline-0  ${formik.touched.email && formik.errors.email ? 'border-red-500 border' : 'border border-gray-400'}`}
+                                className={`w-full bg-white flex rounded-md max-h-10 p-3 text-sm text-gray-500 outline-0  ${formik.touched.email && formik.errors.email ? 'border-red-500 border' : 'border border-gray-400'}`}
                                 placeholder='Email'
                                 type='email'
                                 value={formik.values.email}
@@ -66,11 +68,11 @@ const Feedback = () => {
                                     *{formik.errors.email}
                                 </span>
                             )}
-
-
+                        </div>
+                        <div className='mb-4 sm:mb-6'>
                             <textarea
                                 name="message"
-                                className={` bg-white w-full flex rounded-md h-[200px] max-h-96  mb-4 p-3 text-sm text-gray-500 outline-0  ${formik.touched.message && formik.errors.message ? 'border-red-500 border' : 'border border-gray-400'}`}
+                                className={` bg-white w-full flex rounded-md h-[200px] max-h-96 p-3 text-sm text-gray-500 outline-0  ${formik.touched.message && formik.errors.message ? 'border-red-500 border' : 'border border-gray-400'}`}
                                 placeholder='Write your feedback message here...'
                                 value={formik.values.message}
                                 onChange={formik.handleChange}
@@ -81,9 +83,17 @@ const Feedback = () => {
                                     *{formik.errors.message}
                                 </span>
                             )}
+                        </div>
 
 
-                        <div className='action-btn flex flex-wrap sm:flex-auto  text-center justify-center  sm:justify-end  mb-5 gap-4 '>
+
+
+
+
+
+
+                        <div
+                            className='action-btn flex flex-wrap sm:flex-auto  text-center justify-center  sm:justify-end  mb-5 gap-4 '>
                             <button
                                 onClick={() => formik.resetForm()}
                                 type='submit'
