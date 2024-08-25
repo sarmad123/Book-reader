@@ -124,7 +124,8 @@ const Feedback = () => {
 
             <div className="absolute bottom-0 flex w-full justify-evenly items-center" style={{background: '#005ee6'}}>
                 <div
-                    className="white-dots bg-[radial-gradient(circle,_#ffff_4px,_transparent_5px)] bg-[length:20px_20px]">
+                    className=" white-dots bg-[radial-gradient(circle,_#ffff_4px,_transparent_5px)] bg-[length:20px_20px]"
+                style={{marginBottom:'2px'}}>
                 </div>
                 <div>
                     <span className='text-white'>2</span>
