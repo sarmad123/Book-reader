@@ -82,7 +82,7 @@ const Introduction = () => {
                         <label>
                             <textarea
                                 name="intro"
-                                className={`w-full flex rounded-md h-[200px] max-h-96 mt-2 p-3 text-sm text-gray-500 outline-0  ${formik.touched.intro && formik.errors.intro ? 'border-red-500 border' : 'border border-gray-400'}`}
+                                className={`w-full bg-white flex rounded-md h-[200px] max-h-96 mt-2 p-3 text-sm text-gray-500 outline-0  ${formik.touched.intro && formik.errors.intro ? 'border-red-500 border' : 'border border-gray-400'}`}
                                 placeholder='Write your introduction here...'
                                 value={formik.values.intro}
                                 onChange={formik.handleChange}

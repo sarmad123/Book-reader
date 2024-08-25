@@ -40,7 +40,7 @@ const Feedback = () => {
                         <label>
                             <input
                                 name="name"
-                                className={`w-full flex rounded-md max-h-96 mt-2 p-3 text-sm text-gray-500 outline-0  ${formik.touched.name && formik.errors.name ? 'border-red-500 border' : 'border border-gray-400'}`}
+                                className={`bg-white w-full flex rounded-md max-h-96 mt-2 p-3 text-sm text-gray-500 outline-0  ${formik.touched.name && formik.errors.name ? 'border-red-500 border' : 'border border-gray-400'}`}
                                 placeholder='Name'
                                 type='text'
                                 value={formik.values.name}
@@ -59,7 +59,7 @@ const Feedback = () => {
                         <label>
                             <input
                                 name="email"
-                                className={`w-full flex rounded-md max-h-96 mt-2 p-3 text-sm text-gray-500 outline-0  ${formik.touched.email && formik.errors.email ? 'border-red-500 border' : 'border border-gray-400'}`}
+                                className={`w-full bg-white flex rounded-md max-h-96 mt-2 p-3 text-sm text-gray-500 outline-0  ${formik.touched.email && formik.errors.email ? 'border-red-500 border' : 'border border-gray-400'}`}
                                 placeholder='Email'
                                 type='email'
                                 value={formik.values.email}
@@ -78,7 +78,7 @@ const Feedback = () => {
                         <label>
                             <textarea
                                 name="message"
-                                className={`w-full flex rounded-md h-[200px] max-h-96 mt-2 p-3 text-sm text-gray-500 outline-0  ${formik.touched.message && formik.errors.message ? 'border-red-500 border' : 'border border-gray-400'}`}
+                                className={` bg-white w-full flex rounded-md h-[200px] max-h-96 mt-2 p-3 text-sm text-gray-500 outline-0  ${formik.touched.message && formik.errors.message ? 'border-red-500 border' : 'border border-gray-400'}`}
                                 placeholder='Write your feedback message here...'
                                 value={formik.values.message}
                                 onChange={formik.handleChange}
