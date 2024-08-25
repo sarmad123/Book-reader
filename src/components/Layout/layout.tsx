@@ -22,7 +22,7 @@ const Layout : React.FC<LayoutProps> = ({ children, showBoarderDiv }) => {
                         {children}
                     </article>
                 </div>
-                {showBoarderDiv && (<div className="absolute top-0 right-0 h-full w-10 sm:w-12 flex flex-col">
+                {showBoarderDiv && (<div className="absolute top-0 right-0 h-full w-6 sm:w-12 flex flex-col">
                     <div className="flex-1" style={{background:'#c8dbfb'}}></div>
                     <div className="flex-1 " style={{background:'#005ee6'}}></div>
                     <div className="flex-1" style={{background:'#002451'}}></div>

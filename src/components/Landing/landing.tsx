@@ -41,13 +41,13 @@ const Landing = () => {
             </div>
             <div className="flex mt-3 justify-center">
                 <div className="w-[100%] mx-[18%] sm:w-[66.67%] sm:ml-[33.33%] sm:mr-0">
-                    <p className="main-font font-extrabold  text-1xl md:text-2xl primary-text-color leading-9">Is Your
+                    <p className="main-font font-extrabold  text-1xl md:text-2xl primary-text-color  leading-6 sm:leading-9">Is Your
                         Constitution Fit for Purpose?</p>
                 </div>
             </div>
             <div className="flex mt-3 justify-center  mb-6">
                 <div className="w-[100%] mx-[18%] sm:w-[66.67%] sm:ml-[33.33%] sm:mr-0">
-                    <p className="main-font font-medium  text-1xl md:text-2xl secondary-text-color leading-9">
+                    <p className="main-font font-medium   text-1xl md:text-2xl secondary-text-color  leading-6 sm:leading-9">
                         A Practical Guide to Effective Governance
                     </p>
                 </div>
@@ -60,7 +60,7 @@ const Landing = () => {
                             src={person1Image}
                             alt="Person1"
                         />
-                        <p className='secondary-text-color font-bold text-xs text-center'>Stephen
+                        <p className='secondary-text-color font-bold  text-center' style={{fontSize:'1.1rem'}}>Stephen
                             <br/>
                             <span className='font-medium text-xs '>Bowman</span>
                         </p>
@@ -71,7 +71,7 @@ const Landing = () => {
                             src={person2Image}
                             alt="Person2"
                         />
-                        <p className='secondary-text-color font-bold text-xs'>Anna
+                        <p className='secondary-text-color font-bold text-center' style={{fontSize:'1.1rem'}}>Anna
                             <br/>
                             <span className='font-medium text-xs'>Fitzgibbon</span>
                         </p>
@@ -82,7 +82,7 @@ const Landing = () => {
                             src={person3Image}
                             alt="Person3"
                         />
-                        <p className='secondary-text-color font-bold text-xs'>Gordon
+                        <p className='secondary-text-color font-bold text-center ' style={{fontSize:'1.1rem'}}>Gordon
                             <br/>
                             <span className='font-medium text-xs'>Shaw</span>
                         </p>
