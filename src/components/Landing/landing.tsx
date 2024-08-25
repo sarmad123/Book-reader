@@ -55,12 +55,18 @@ const Landing = () => {
             <div className="flex justify-center sm:block sm:w-[66.67%] sm:ml-[33.33%] sm:mr-0 mb-52">
                 <div className="inline-grid grid-flow-col auto-cols-auto gap-2 text-center">
                     <div className='w-[80px] h-[80px] sm:w-[120px] sm:h-[120px]'>
-                        <img
-                            className="persons aspect-square	"
-                            src={person1Image}
-                            alt="Person1"
-                        />
-                        <p className='secondary-text-color font-bold  text-center' style={{fontSize:'1.1rem'}}>Stephen
+                        <div className='relative'>
+                            <img
+                                className="persons aspect-square	"
+                                src={person1Image}
+                                alt="Person1"
+                            />
+                            <div className='absolute top-0 -left-2 h-7 w-7 rounded-full' style={{background:'#005ee6'}}>
+                                <span className='text-white px-1 py-1'>by</span>
+                            </div>
+                        </div>
+
+                        <p className='secondary-text-color font-bold  text-center' style={{fontSize: '1.1rem'}}>Stephen
                             <br/>
                             <span className='font-medium text-xs '>Bowman</span>
                         </p>

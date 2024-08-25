@@ -79,7 +79,6 @@ const Introduction = () => {
             {isEdit && (<div className="flex  justify-center mt-3  mb-6">
                 <div className="w-[100%] mx-[15%]">
                     <form onSubmit={formik.handleSubmit}>
-                        <label>
                             <textarea
                                 name="intro"
                                 className={`w-full bg-white flex rounded-md h-[200px] max-h-96 mt-2 p-3 text-sm text-gray-500 outline-0  ${formik.touched.intro && formik.errors.intro ? 'border-red-500 border' : 'border border-gray-400'}`}
@@ -93,7 +92,6 @@ const Introduction = () => {
                                     *{formik.errors.intro}
                                 </span>
                             )}
-                        </label>
                         <div className='action-btn flex  justify-center sm:justify-end mt-3 mb-5 gap-4'>
                             {isEdit && (<button
                                 type='submit'
