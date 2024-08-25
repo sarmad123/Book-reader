@@ -1,4 +1,4 @@
-import './Introduction.css';
+import './introduction.css';
 import introductionImage from '../../assets/introductionImage.png';
 import doubleArrow from '../../assets/doubleArrow.png';
 import {useState} from "react";
