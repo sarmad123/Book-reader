@@ -56,7 +56,7 @@ const Introduction = () => {
                 </div>
                 <div className='action-btn '>
                     {!isEdit  && (<button className='sm:px-5 sm:py-1.5 py-1
-                    sm:border-blue-950 sm:text-blue-950 sm:bg-white border-blue-950 bg-blue-950 text-white
+                    border-blue-950 bg-blue-950 text-white
                       text-sm rounded-md inline-flex items-center space-x-1 main-font font-normal
                     hover:border-blue-950 hover:bg-blue-950 hover:text-white
                     '
@@ -99,7 +99,7 @@ const Introduction = () => {
                                 type='submit'
                                 disabled={!formik.isValid}
                                 className={`sm:px-5 sm:py-1.5 py-1 
-                                sm:border-blue-950 sm:text-blue-950 sm:bg-white border-blue-950 bg-blue-950 text-white
+                                 border-blue-950 bg-blue-950 text-white
                                 w-full sm:w-[30%] justify-center text-sm rounded-md inline-flex items-center space-x-1 main-font font-normal ${
                                     formik.isValid ? 'hover:border-blue-950 hover:bg-blue-950 hover:text-white' : 'opacity-50 cursor-not-allowed'
                                 }`}

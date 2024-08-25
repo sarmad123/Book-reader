@@ -92,18 +92,28 @@ const Feedback = () => {
 
 
                         </label>
-                        <div className='action-btn flex  text-center justify-center  sm:justify-end mt-3 mb-5 gap-4 '>
+                        <div className='action-btn flex flex-wrap sm:flex-auto  text-center justify-center  sm:justify-end mt-3 mb-5 gap-4 '>
+                            <button
+                                onClick={() => formik.resetForm()}
+                                type='submit'
+                                className={`sm:px-5 sm:py-1.5 py-1
+                                 border-blue-950 bg-white text-blue-950 hover:border-blue-950
+                                w-full sm:w-[30%] justify-center text-sm rounded-md inline-flex items-center space-x-1 main-font font-normal`}
+                            >
+                                <span className='uppercase'>Clear</span>
+                            </button>
                             <button
                                 type='submit'
                                 disabled={!formik.isValid}
                                 className={`sm:px-5 sm:py-1.5 py-1
-                                sm:border-blue-950 sm:text-blue-950 sm:bg-white border-blue-950 bg-blue-950 text-white
+                                 border-blue-950 bg-blue-950 text-white
                                 w-full sm:w-[30%] justify-center text-sm rounded-md inline-flex items-center space-x-1 main-font font-normal ${
                                     formik.isValid ? 'hover:border-blue-950 hover:bg-blue-950 hover:text-white' : 'opacity-50 cursor-not-allowed'
                                 }`}
                             >
-                                <span className='uppercase'>Save</span>
+                                <span className='uppercase'>Submit</span>
                             </button>
+
                         </div>
 
 
