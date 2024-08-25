@@ -17,7 +17,7 @@ const Landing = () => {
             bg-[length:20px_20px]">
                     </div>
                 </div>
-                <div className="md:w-2/3 lg:w-2/3">
+                <div className="md:w-2/3 lg:w-2/3 mt-3 md:mt-0">
                     <div className="flex items-center">
                         <img className="h-16 w-16 md:h-auto md:w-auto"
                              src={mainLogoImage}
