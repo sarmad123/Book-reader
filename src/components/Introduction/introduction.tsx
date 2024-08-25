@@ -120,7 +120,7 @@ const Introduction = () => {
             </div>
             <div className="flex w-full justify-evenly items-center" style={{background: '#005ee6'}}>
                 <div
-                    className="white-dots bg-[radial-gradient(circle,_#ffff_4px,_transparent_5px)] bg-[length:20px_20px]" style={{marginBottom:'2px'}}>
+                    className="white-dots bg-[radial-gradient(circle,_#ffff_3px,_transparent_4px)] bg-[length:20px_20px]" style={{marginBottom:'2px'}}>
                 </div>
                 <div>
                     <span className='text-white'>1</span>
